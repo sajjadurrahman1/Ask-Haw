@@ -1,6 +1,6 @@
 # AskHAW - AI Chatbot for HAW Hamburg
 
-**Live demo: [Open AskHAW](PASTE-YOUR-LIVE-LINK-HERE)**
+**Live demo: [Open AskHAW]([PASTE-YOUR-LIVE-LINK-HERE](https://ask-haw-nbfieb87wpceqrhy4ps9sj.streamlit.app/))**
 
 Click the link above to try the chatbot directly in your browser. Ask questions in English or German. (You will first be shown a short privacy notice to accept.)
 
