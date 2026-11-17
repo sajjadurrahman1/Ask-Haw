@@ -7,7 +7,8 @@ import faiss
 import langid
 from openai import OpenAI
 from pathlib import Path
-
+import os
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
 # --- CONFIG ---
 LOGO_PATH = "assets/logo-haw-hamburg.gif"
 LOGO_STATIC = "assets/haw-logo.png"
