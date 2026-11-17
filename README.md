@@ -1,6 +1,6 @@
 # AskHAW - AI Chatbot for HAW Hamburg
 
-**Live demo: [Open AskHAW]([PASTE-YOUR-LIVE-LINK-HERE](https://ask-haw-nbfieb87wpceqrhy4ps9sj.streamlit.app/))**
+**Live demo: [Open AskHAW](https://ask-haw-nbfieb87wpceqrhy4ps9sj.streamlit.app/)**
 
 Click the link above to try the chatbot directly in your browser. Ask questions in English or German. (You will first be shown a short privacy notice to accept.)
 
@@ -13,7 +13,7 @@ AskHAW was developed as a team project at the Hamburg University of Applied Scie
 | Team member | Sajjadur Rahman ([GitHub](https://github.com/sajjadurrahman1)) |
 | Team member | Mainuddin Monsur Robin |
 | Team member | Monzurul Islam Zhimon |
-| Supervising professor |Pawel Buczek |
+| Supervising professor | Pawel Buczek |
 
 ---
 
@@ -139,10 +139,7 @@ source .venv/bin/activate        # macOS / Linux
 
 ```bash
 pip install -r requirements.txt
-pip install openai faiss-cpu numpy
 ```
-
-`main.py` also imports `openai`, `faiss` and `numpy`, which are not listed in `requirements.txt`, so they are installed in the second command.
 
 ### 4. Add your OpenAI API key
 
@@ -220,7 +217,6 @@ Example questions:
 ## Possible Improvements
 
 - Use the chat history when building the retrieval query (the function `build_retrieval_query` in `main.py` is a placeholder for this).
-- Add the missing dependencies to `requirements.txt`.
 - Show source links with each answer.
 - Add more program overview pages to the knowledge base.
 - Add automated tests and a `.gitignore` for `__pycache__/`, `.streamlit/secrets.toml` and feedback data.
