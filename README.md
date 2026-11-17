@@ -1,5 +1,22 @@
 # AskHAW - AI Chatbot for HAW Hamburg
 
+**Live demo: [Open AskHAW](PASTE-YOUR-LIVE-LINK-HERE)**
+
+Click the link above to try the chatbot directly in your browser. Ask questions in English or German. (You will first be shown a short privacy notice to accept.)
+
+## Team
+
+AskHAW was developed as a team project at the Hamburg University of Applied Sciences (HAW Hamburg).
+
+| Role | Name |
+|---|---|
+| Team member | Sajjadur Rahman ([GitHub](https://github.com/sajjadurrahman1)) |
+| Team member | Mainuddin Monsur Robin |
+| Team member | Monzurul Islam Zhimon |
+| Supervising professor |Pawel Buczek |
+
+---
+
 AskHAW is a bilingual (English / German) chatbot for students and applicants of the Hamburg University of Applied Sciences (HAW Hamburg). It answers questions about programs, applications, deadlines, scholarships, housing, library, counselling, campus life and contacts, using only information scraped from official HAW Hamburg web pages.
 
 It is built as a Retrieval-Augmented Generation (RAG) pipeline: relevant text chunks are retrieved from a local vector index and passed to an OpenAI model, which is instructed not to state anything that is not in the retrieved context.
@@ -214,8 +231,3 @@ Example questions:
 
 The `docs/` folder contains the Software Requirements Specification (SRS) for AskHAW, a project presentation and a sample question-and-answer output.
 
----
-
-## Author
-
-Created by [sajjadurrahman1](https://github.com/sajjadurrahman1).
