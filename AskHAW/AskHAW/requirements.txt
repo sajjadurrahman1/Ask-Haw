@@ -22,3 +22,6 @@ deep-translator==1.11.4   # replacing googletrans (stable, no async issues)
  
 # --- Miscellaneous Utilities ---
 tqdm==4.66.5      # optional progress bar for long operati
+openai
+faiss-cpu
+numpy
